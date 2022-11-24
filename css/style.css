@@ -13,7 +13,7 @@
 .grid-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: auto 100px auto 78px;
+    grid-template-rows: auto auto auto 78px;
     grid-template-areas:
     "header     header      header"
     "nav        nav         nav"
