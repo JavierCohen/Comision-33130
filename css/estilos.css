@@ -25,7 +25,10 @@ body main h1 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto auto auto 78px;
-  grid-template-areas: "header     header      header" "nav        nav         nav" "main       main        main" "footer     footer      footer"; }
+  grid-template-areas: "header     header      header"
+ "nav        nav         nav"
+ "main       main        main"
+ "footer     footer      footer"; }
 
 /* ============================================== */
 /* BODY */
@@ -153,6 +156,7 @@ div#carouselExampleIndicators.carousel.slide {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    min-width: 200px;
     width: calc(25% - 50px);
     max-height: 100%;
     border: 5px solid rgba(0, 0, 0, 0.557);
