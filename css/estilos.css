@@ -156,7 +156,6 @@ div#carouselExampleIndicators.carousel.slide {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    min-width: 200px;
     width: calc(25% - 50px);
     max-height: 100%;
     border: 5px solid rgba(0, 0, 0, 0.557);
