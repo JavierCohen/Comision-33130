@@ -38,6 +38,7 @@ div#carouselExampleIndicators.carousel.slide{
         @include flex-2 (flex, column, center);
         @extend %sombra;
         width: calc(25% - 50px);
+        min-width: 200px;
         max-height: 100%;
         border: map-get($color, set-border);
         background-color: map-get($color, set-fondo);
