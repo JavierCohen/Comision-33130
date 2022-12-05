@@ -1,0 +1,128 @@
+/* MEDIA QUERIES - LIBROS */
+@media screen and (max-width:1259px){
+
+    .libro, .libro-par{
+        height: auto;
+    }
+    .libro img, .libro-par img{
+        width: 20%;
+    }
+
+    .parrafo p{
+        font-size: nth($font-size, 9);
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .parrafo li{
+        font-size: nth($font-size, 8);
+        list-style: circle;
+    }
+}
+
+@media screen and (max-width:1061px){
+    .libro, .libro-par{
+        height: auto;
+    }
+    .libro img, .libro-par img{
+        width: 20%;
+    }
+
+    .parrafo p{
+        font-size: nth($font-size, 8);
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .parrafo li{
+        font-size: nth($font-size, 7);
+        list-style: circle;
+    }
+}
+
+@media screen and (max-width:1020px){
+    .libros-container{
+        margin-left: calc(35% + 20px);
+    }
+
+    .libro, .libro-par{
+        flex-direction: column;
+        max-width: 254px;
+    }
+
+    .libro img, .libro-par img{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .parrafo p{
+        font-size: nth($font-size, 7);
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .parrafo li{
+        font-size: nth($font-size, 7);
+        list-style: circle;
+        margin-bottom: 5px;
+    }
+}
+
+@media screen and (max-width:815px){
+    .libros-container{
+        margin-left: calc(25% + 40px);
+    }
+
+    .parrafo p{
+        font-size: nth($font-size, 5);
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .parrafo li{
+        font-size: nth($font-size, 5);
+        list-style: circle;
+        margin-bottom: 5px;
+        margin-right: 2px;
+    }
+}
+
+@media screen and (max-width:535px){
+    .libros-container{
+        margin-left: 15%;
+
+    }
+
+    .parrafo p{
+        font-size: nth($font-size, 5);
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .parrafo li{
+        font-size: nth($font-size, 5);
+        list-style: circle;
+        margin-bottom: 5px;
+        margin-right: 2px;
+    }
+}
+
+/* ============================================== */
+
+/* MEDIA QUERIES - GALERIA */
+@media screen and (max-width:460px){
+    .grid-galeria{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-auto-rows: auto;
+        gap: 2%;
+        margin: 3% 7% 10% 7%;
+        padding-bottom: 5%;
+    }
+
+    .grid-img:nth-child(5n){
+        display: none;
+    }
+}
+
+/* ============================================== */

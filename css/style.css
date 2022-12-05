@@ -24,21 +24,7 @@
 
 .grid-container h1{
     text-shadow: 5px 4px 5px rgba(255,255,255,0.78);
-    /* animation-name: slidein;
-    animation-duration: 1.5s;
-    animation-timing-function: ease-out;
-    animation-direction: initial; */
 }
-/* @keyframes slidein{
-    from{
-        margin-left: 100%;
-        width: 300%;
-    }
-    to{
-        margin-left: 0;
-        width: 100%;
-    }
-} */ /** el profe recomendo no agregar este tipo de animaciones :( por las dudas lo dejo comentado. */
 
 /* ============================================== */
 
@@ -270,8 +256,8 @@ div .libro{
 .libro:hover{
     transform: scale(1.05);
     margin: 3%;
-    
 } 
+
 .libro-par:hover{
     transform: scale(1.05);
     margin: 3%;
@@ -505,9 +491,7 @@ input{
     transform: scale(1.1);
 }
 
-/*? deberia usar un :hover para dispositivos moviles? no se lo agregue pq no estoy seguro de que sea algo que se uso o si resultaria algo más molesto que practico en un dispositivo tactil */
-
-.grid-img:nth-child(5){
+.grid-img:nth-child(5n){
     grid-column: span 2;
     grid-row: span 2;
 }

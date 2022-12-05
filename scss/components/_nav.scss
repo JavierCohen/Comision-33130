@@ -1,0 +1,33 @@
+/* NAVBAR */
+nav{
+    grid-area: nav;
+    grid-column: span 4;
+    
+
+    .container-fluid{
+        background-color: $color-main;
+        margin: -8px 0 -8px 0;
+        div#menu{
+            text-align: center;
+
+            .navbar-nav{
+                .nav-item{
+                    .nav-link{
+                        margin: 0 15px 0 15px;
+                    }
+                    .nav-link.active{
+                        &:hover{
+                            background-color: $color-bone;
+                            color: $color-main;
+                            border-radius: 11px 11px 11px 11px;
+                            -webkit-border-radius: 11px 11px 11px 11px;
+                            -moz-border-radius: 11px 11px 11px 11px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* ============================================== */

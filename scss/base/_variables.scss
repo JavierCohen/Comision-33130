@@ -1,0 +1,63 @@
+//! VARIABLES 
+$color-white: rgb(255, 255, 255);
+$color-bone: rgb(251, 245, 237);
+$color-main: rgb(0, 0, 0);
+
+//========================================================================
+//! LISTA
+$font-size:
+12px,
+15px,
+18px,
+20px,
+85%,
+110%,
+90%,
+95%,
+98%;
+
+//========================================================================
+//! MAPA 
+$color:(
+    set-border: 5px solid rgba(0, 0, 0, 0.557),
+    set-fondo: rgba(35, 35, 35, 0.816),
+);
+
+//========================================================================
+//! EXTENDS
+%sombra{
+    box-shadow: 0px 0px 10px 9px rgba(0,0,0,0.59);
+    -webkit-box-shadow: 0px 0px 10px 9px rgba(0,0,0,0.59);
+    -moz-box-shadow: 0px 0px 10px 9px rgba(0,0,0,0.59);
+}
+
+%h1effect{
+    text-shadow: 5px 4px 5px rgba(255,255,255,0.78);
+}
+
+%display-direction{
+    display: flex;
+    flex-direction: column;
+}
+
+//========================================================================
+//! MIXINS
+@mixin flex ($flex, $justify, $wrap){
+    display: $flex; //FLEX
+    justify-content: $justify; //CENTER
+    flex-wrap: $wrap; //WRAP
+}
+
+@mixin flex-2($flex, $direction, $justify){
+    display: $flex; //FLEX
+    flex-direction: $direction; //COLUMN, ROW, ROW-REVERSE
+    justify-content: $justify; //CENTER
+}
+
+@mixin flex-3($flex, $direction, $align){
+    display: $flex; //FLEX
+    flex-direction: $direction; //COLUMN, ROW, ROW-REVERSE
+    align-items: $align; //CENTER
+}
+
+//========================================================================
