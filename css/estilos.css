@@ -25,10 +25,7 @@ body main h1 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto auto auto 78px;
-  grid-template-areas: "header     header      header"
- "nav        nav         nav"
- "main       main        main"
- "footer     footer      footer"; }
+  grid-template-areas: "header     header      header" "nav        nav         nav" "main       main        main" "footer     footer      footer"; }
 
 /* ============================================== */
 /* BODY */
@@ -153,6 +150,7 @@ div#carouselExampleIndicators.carousel.slide {
   .peliculas div img {
     border: 5px solid rgba(0, 0, 0, 0.557); }
   .peliculas .pelicula {
+    min-width: 200px;
     display: flex;
     flex-direction: column;
     justify-content: center;
