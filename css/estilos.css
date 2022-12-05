@@ -150,11 +150,11 @@ div#carouselExampleIndicators.carousel.slide {
   .peliculas div img {
     border: 5px solid rgba(0, 0, 0, 0.557); }
   .peliculas .pelicula {
-    min-width: 200px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: calc(25% - 50px);
+    min-width: 200px;
     max-height: 100%;
     border: 5px solid rgba(0, 0, 0, 0.557);
     background-color: rgba(35, 35, 35, 0.816);
