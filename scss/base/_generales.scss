@@ -1,6 +1,6 @@
 /* Fuente */
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
-@import "../base/variables";
+// @import "../base/variables";
 
 /* ============================================== */
 
@@ -43,7 +43,7 @@ body{
         max-height: auto;
         max-width: 100%;
         border: 5px solid black;
-    
+
         h1{
             color: $color-white;
             margin-left: 5px;
